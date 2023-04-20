@@ -32,7 +32,7 @@ const Calculator = ()=>{
   
     return(
       <>
-       <div className="w-1/4 h-3/4 md:w-64 sm:w-64  space-y-4 bg-[#3C486B] rounded">
+       <div className="w-92 h-3/4 md:w-64 sm:w-64  space-y-4 bg-[#3C486B] rounded">
         <div className="w-11/12 h-1/5 p-5  ml-2.5 mt-2.5 bg-[#F0F0F0] rounded">
           {input}
         </div>
