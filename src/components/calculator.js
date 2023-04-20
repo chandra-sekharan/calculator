@@ -42,21 +42,29 @@ const Calculator = ()=>{
         <button onClick={clearItem} className="w-10 h-10  rounded bg-[#F0F0F0]">clr</button>
         <button onClick={()=>setinput(input + '%')} className="w-10 h-10  rounded bg-[#F0F0F0]">%</button>
         <button onClick={()=>setinput(input + '/')} className="w-10 h-10  rounded bg-[#F0F0F0]">/</button>
-        <button onClick={()=>setinput(input + '7')} className="w-10 h-10  rounded bg-[#F0F0F0]">7</button>
-        <button onClick={()=>setinput(input + '8')} className="w-10 h-10  rounded bg-[#F0F0F0]">8</button>
-        <button onClick={()=>setinput(input + '9')} className="w-10 h-10  rounded bg-[#F0F0F0]">9</button>
         <button onClick={()=>setinput(input + '*')} className="w-10 h-10  rounded bg-[#F0F0F0]">x</button>
-        <button onClick={()=>setinput(input + '4')} className="w-10 h-10  rounded bg-[#F0F0F0]">4</button>
-        <button onClick={()=>setinput(input + '5')} className="w-10 h-10  rounded bg-[#F0F0F0]">5</button>
-        <button onClick={()=>setinput(input + '6')} className="w-10 h-10  rounded bg-[#F0F0F0]">6</button>
-        <button onClick={()=>setinput(input + '-')} className="w-10 h-10  rounded bg-[#F0F0F0]">-</button>
         <button onClick={()=>setinput(input + '1')} className="w-10 h-10  rounded bg-[#F0F0F0]">1</button>
         <button onClick={()=>setinput(input + '2')} className="w-10 h-10  rounded bg-[#F0F0F0]">2</button>
         <button onClick={()=>setinput(input + '3')} className="w-10 h-10  rounded bg-[#F0F0F0]">3</button>
+        <button onClick={()=>setinput(input + '4')} className="w-10 h-10  rounded bg-[#F0F0F0]">4</button>
+        <button onClick={()=>setinput(input + '-')} className="w-10 h-10  rounded bg-[#F0F0F0]">-</button>
+        <button onClick={()=>setinput(input + '5')} className="w-10 h-10  rounded bg-[#F0F0F0]">5</button>
+        <button onClick={()=>setinput(input + '6')} className="w-10 h-10  rounded bg-[#F0F0F0]">6</button>
+        <button onClick={()=>setinput(input + '7')} className="w-10 h-10  rounded bg-[#F0F0F0]">7</button>
+        <button onClick={()=>setinput(input + '8')} className="w-10 h-10  rounded bg-[#F0F0F0]">8</button>
         <button onClick={()=>setinput(input + '+')} className="w-10 h-10  rounded bg-[#F0F0F0]">+</button>
+        <button onClick={()=>setinput(input + '9')} className="w-10 h-10  rounded bg-[#F0F0F0]">9</button>
+        
+        
+        
+        
+        
+        
         <button onClick={()=>setinput(input + '00')} className="w-10 h-10  rounded bg-[#F0F0F0]">00</button>
         <button onClick={()=>setinput(input + '0')} className="w-10 h-10  rounded bg-[#F0F0F0]">0</button>
         <button onClick={()=>setinput(input + '.')} className="w-10 h-10  rounded bg-[#F0F0F0]">.</button>
+        
+        
         <button onClick={Evalute} className="w-10 h-10 rounded bg-[#F0F0F0]">=</button>
         </div>
         </div>
